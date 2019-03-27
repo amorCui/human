@@ -1,0 +1,15 @@
+.all-canvas{
+	position: relative;
+	width:100%;
+	canvas{
+		position: absolute;
+		left:0;
+		bottom:0;
+	}
+	.can1{//人物
+		z-index: 1;
+	}
+	.can2{//背景
+		z-index: 0;
+	}
+}
